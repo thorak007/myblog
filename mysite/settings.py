@@ -25,7 +25,8 @@ SECRET_KEY = 'k_*#+pr4d1o5v!e7lq73m-*b7k&=utdr+tsecrg&f+mz02q=tl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thorak.pythonanywhere.com']
+ALLOWED_HOSTS = ['thorak.pythonanywhere.com',
+                 '127.0.0.1',]
 
 
 # Application definition
