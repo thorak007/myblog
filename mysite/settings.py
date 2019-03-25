@@ -81,7 +81,7 @@ DATABASES = {
 	'NAME': 'webdb',
 	'USER': 'root',
 	'PASSWORD': 'Umb.ndnv-100%',
-	'HOST': '129.168.2.105',
+	'HOST': '192.168.2.105',
 	'PORT': '3306',
     }
 }
