@@ -82,7 +82,7 @@ DATABASES = {
 	'USER': 'root',
 	'PASSWORD': 'Umb.ndnv-100%',
 	'HOST': '129.168.2.105',
-	'PORT': '8084',
+	'PORT': '3306',
     }
 }
 
