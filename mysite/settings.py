@@ -82,7 +82,7 @@ DATABASES = {
 	'USER': 'vagrant',
 	'PASSWORD': 'Umb.ndnv-100%',
 	'HOST': '192.168.2.105',
-	'PORT': '3306',
+	'PORT': '5432',
     }
 }
 
