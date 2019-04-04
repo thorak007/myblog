@@ -25,8 +25,8 @@ SECRET_KEY = 'k_*#+pr4d1o5v!e7lq73m-*b7k&=utdr+tsecrg&f+mz02q=tl'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['thorak.pythonanywhere.com',
-                 '127.0.0.1',]
+ALLOWED_HOSTS = ['192.168.2.103',
+		 '192.168.2.104',]
 
 
 # Application definition
@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
 	'NAME': 'webdb',
 	'USER': 'vagrant',
 	'PASSWORD': 'Umb.ndnv-100%',
 	'HOST': '192.168.2.105',
-	'PORT': '3306',
+	'PORT': '5432',
     }
 }
 
