@@ -26,7 +26,8 @@ SECRET_KEY = 'k_*#+pr4d1o5v!e7lq73m-*b7k&=utdr+tsecrg&f+mz02q=tl'
 DEBUG = True
 
 ALLOWED_HOSTS = ['thorak.pythonanywhere.com',
-                 '127.0.0.1',]
+                 '192.168.2.103'
+		 '192.168.2.104',]
 
 
 # Application definition
