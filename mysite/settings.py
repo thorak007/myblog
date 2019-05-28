@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 	'NAME': 'webdb',
-	'USER': 'vagrant',
+	'USER': 'thorak2001',
 	'PASSWORD': 'Umb.ndnv-100%',
 	'HOST': '192.168.2.105',
 	'PORT': '5432',
